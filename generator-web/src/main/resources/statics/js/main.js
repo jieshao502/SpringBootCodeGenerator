@@ -53,6 +53,7 @@ const vm = new Vue({
 				isComment: true,
 				isLombok: true,
 
+
 				ignorePrefix:"sys_",
 				tinyintTransType: "Integer",
 				nameCaseType: "CamelCase",
