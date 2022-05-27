@@ -69,7 +69,7 @@
     </update>
 
 
-    <select id="load" resultMap="BaseResultMap">
+    <select id="selectById" resultMap="BaseResultMap">
         SELECT <include refid="Base_Column_List" />
         FROM ${classInfo.originTableName}
         WHERE id = ${r"#{id}"}

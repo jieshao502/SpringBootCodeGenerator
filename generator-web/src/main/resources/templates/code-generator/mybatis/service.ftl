@@ -26,7 +26,7 @@ public interface ${classInfo.className}Service {
     /**
     * 根据主键 id 查询
     */
-    public ${classInfo.className} load(int id);
+    public ${classInfo.className} selectById(int id);
 
     /**
     * 分页查询

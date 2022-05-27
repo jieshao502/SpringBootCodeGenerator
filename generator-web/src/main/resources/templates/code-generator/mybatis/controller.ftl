@@ -57,9 +57,9 @@ public class ${classInfo.className}Controller {
     * @author ${authorName}
     * @date ${.now?string('yyyy/MM/dd')}
     **/
-    @RequestMapping("/load")
-    public Object load(int id){
-        return ${classInfo.className?uncap_first}Service.load(id);
+    @RequestMapping("/selectById")
+    public Object selectById(int id){
+        return ${classInfo.className?uncap_first}Service.selectById(id);
     }
 
     /**

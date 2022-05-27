@@ -46,7 +46,7 @@ public class ${classInfo.className}ServiceImpl implements ${classInfo.className}
 
 
 	@Override
-	public ${classInfo.className} load(int id) {
+	public ${classInfo.className} selectById(int id) {
 		return ${classInfo.className?uncap_first}Mapper.load(id);
 	}
 

@@ -54,9 +54,9 @@ OEM:
   slogan:
   description:
   author:
-  packageName:
+  packageName: com.module
   copyright:
   returnUtilSuccess:
   returnUtilFailure:
   outputStr:
-  mode:
+  mode: CDN
