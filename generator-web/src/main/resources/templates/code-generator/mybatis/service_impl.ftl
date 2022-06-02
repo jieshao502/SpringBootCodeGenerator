@@ -1,10 +1,12 @@
 <#if isAutoImport?exists && isAutoImport==true>
-import org.springframework.stereotype.Service;
-import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+	import org.springframework.transaction.annotation.Transactional;
+	import org.springframework.stereotype.Service;
+	import javax.annotation.Resource;
+	import java.util.ArrayList;
+	import java.util.HashMap;
+	import java.util.List;
+	import java.util.Map;
+
 </#if>
 /**
  * @description ${classInfo.classComment}
@@ -12,6 +14,7 @@ import java.util.Map;
  * @date ${.now?string('yyyy-MM-dd')}
  */
 @Service
+@Transactional
 public class ${classInfo.className}ServiceImpl implements ${classInfo.className}Service {
 
 	@Resource
